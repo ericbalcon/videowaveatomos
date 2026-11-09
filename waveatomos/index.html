@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WaveAtomos — Science meets music</title>
+<meta name="description" content="WaveAtomos, the element synthesizer by Eric Tripper. Play the periodic table.">
+<meta property="og:title" content="WaveAtomos — Science meets music">
+<meta property="og:description" content="118 elements. 118 voices. The element synthesizer by Eric Tripper · TripperMusic.">
+<meta property="og:type" content="video.other">
+<meta property="og:image" content="https://ericbalcon.github.io/videowaveatomos/waveatomos/poster.jpg">
+<meta property="og:video" content="https://ericbalcon.github.io/videowaveatomos/waveatomos/waveatomos-teaser.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  html,body{margin:0;background:#05070c;color:#e9edf0;font-family:"Barlow","Helvetica Neue",Arial,sans-serif}
+  body{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+       background:radial-gradient(900px 500px at 50% 30%,rgba(255,181,74,.10),rgba(255,181,74,0) 70%),#05070c}
+  main{width:min(1100px,92vw);padding:32px 0}
+  .brand{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+  .brand svg{width:44px;height:44px;flex:none}
+  .brand h1{margin:0;font-size:32px;letter-spacing:1px;font-weight:300}
+  .brand h1 b{font-weight:800}
+  .brand span{display:block;font-family:"Roboto Mono",Menlo,monospace;font-size:11px;letter-spacing:4px;color:#FFB54A}
+  video{width:100%;display:block;border-radius:12px;background:#000;box-shadow:0 0 80px rgba(255,181,74,.15),0 20px 60px rgba(0,0,0,.7)}
+  .tag{margin:22px 0 6px;font-size:26px;font-weight:300}
+  .sub{color:#aab3bd;font-size:16px;margin:0 0 22px}
+  .row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  a.btn{display:inline-block;padding:12px 20px;border-radius:8px;background:#FFB54A;color:#14100a;text-decoration:none;font-weight:700;letter-spacing:1px}
+  a.btn:hover{background:#ffd08a}
+  .chips{color:#8a929a;font-size:14px;letter-spacing:2px}
+  footer{color:#6c747c;font-size:13px;padding:0 0 24px}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <svg viewBox="0 0 104 104" aria-hidden="true">
+      <ellipse cx="52" cy="52" rx="46" ry="17" fill="none" stroke="#FFB54A" stroke-width="4"/>
+      <ellipse cx="52" cy="52" rx="46" ry="17" fill="none" stroke="#5ab0ff" stroke-width="4" transform="rotate(60 52 52)"/>
+      <ellipse cx="52" cy="52" rx="46" ry="17" fill="none" stroke="#b48cff" stroke-width="4" transform="rotate(120 52 52)"/>
+      <circle cx="52" cy="52" r="9" fill="#ffe2b0"/>
+    </svg>
+    <div><h1>WAVE<b>ATOMOS</b></h1><span>ELEMENT SYNTHESIZER</span></div>
+  </div>
+  <video src="waveatomos-teaser.mp4" poster="poster.jpg" controls autoplay muted loop playsinline preload="auto"></video>
+  <p class="tag">Science meets music. The result is unique.</p>
+  <p class="sub">118 elements. 118 voices. Play the periodic table.</p>
+  <div class="row">
+    <a class="btn" href="https://erictrippermusic.com">Get WaveAtomos</a>
+    <span class="chips">VST3 · AU · STANDALONE · macOS &amp; Windows</span>
+  </div>
+</main>
+<footer>by Eric Tripper · TripperMusic</footer>
+</body>
+</html>
